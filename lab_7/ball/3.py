@@ -8,7 +8,7 @@ clock = pygame.time.Clock()
 pygame.display.set_caption("Game")
 
 x, y = WIDTH//2, HEIGHT//2
-x_change = 0
+x_change = 0 
 running = True
 while running:
     clock.tick(60)

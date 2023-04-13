@@ -8,17 +8,17 @@ clock = pygame.time.Clock()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('mickeyclock')
 
-background = pygame.transform.scale(pygame.image.load('image/clock.png'), (WIDTH, HEIGHT))
+background = pygame.transform.scale(pygame.image.load('image/mickeyclock.png'), (WIDTH, HEIGHT))
 
-pygame.mixer.music.load('image/tiktak.mp3')
+pygame.mixer.music.load('image/tik.mp3')
 pygame.mixer.music.play(-1)  
 
 
-right = pygame.image.load('image/right.png')
-left = pygame.image.load('image/left.png')
+right = pygame.image.load('image/righth.png')
+left = pygame.image.load('image/lefth.png')
 
-rhand = pygame.transform.scale(pygame.image.load('image/right.png'), (right.get_width()//1.75, right.get_height()//1.75))
-lhand = pygame.transform.scale(pygame.image.load('image/left.png'), (left.get_width()//1.75, left.get_height()//1.75))
+rhand = pygame.transform.scale(pygame.image.load('image/righth.png'), (right.get_width()//1.75, right.get_height()//1.75))
+lhand = pygame.transform.scale(pygame.image.load('image/lefth.png'), (left.get_width()//1.75, left.get_height()//1.75))
 
 
 def blit_rotate_center(image, x0, y0, angel):

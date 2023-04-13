@@ -4,11 +4,11 @@ pygame.init()
 WIDTH, HEIGHT = 800, 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Player")
-background = pygame.transform.scale(pygame.image.load('image/player.jpg'), (WIDTH, HEIGHT))
+background = pygame.transform.scale(pygame.image.load('image/player1.jpg'), (WIDTH, HEIGHT))
 sound = [
-    pygame.mixer.Sound("image/These Are The Times.mp3"),
-    pygame.mixer.Sound("image/Ring.mp3"),
-    pygame.mixer.Sound("image/Sting - Shape Of My Heart.mp3")
+    pygame.mixer.Sound("image/TheseAreTheTimes.mp3"),
+    pygame.mixer.Sound("image/Rington.mp3"),
+    pygame.mixer.Sound("image/Shape Of My Heart.mp3")
 ]
 sound_name = [
     "These Are The Times",
